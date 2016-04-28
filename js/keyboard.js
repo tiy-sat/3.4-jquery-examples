@@ -1,4 +1,4 @@
-$(function(e){
+$(function(){
   var $textInputEl = $("[data-js='input--text']");
   var $chatFormEl = $("[data-js='chatForm']");
   var $chatLogEl = $("[data-js='chatLog']");

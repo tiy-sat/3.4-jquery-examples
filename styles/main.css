@@ -68,10 +68,13 @@ body {
   font-size: 1.4rem; }
 
 .list__item {
-  color: blue; }
+  color: blue;
+  cursor: pointer;
+  -webkit-user-select: none; }
 
 .list__item--clicked {
-  color: red; }
+  text-decoration: line-through;
+  color: lightgrey; }
 
 .chatMsg--delete {
   color: red; }
