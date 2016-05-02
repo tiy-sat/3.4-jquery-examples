@@ -1,0 +1,12 @@
+{
+  "name": "3.4-jquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^1.12.3"
+  },
+  "scripts": {
+    "watch": "sass --watch sass/main.sass:styles/main.css"
+  }
+}
